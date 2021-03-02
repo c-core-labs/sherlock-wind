@@ -20,9 +20,18 @@ fsspec = "^0.8.7"
 gcsfs = "^0.7.2"
 matplotlib = "^3.3.4"
 Cartopy = "^0.18.0"
+numpy = "^1.20.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+
+[tool.poetry.scripts]
+format = "scripts:format"
+start = "scripts:start"
+test = "scripts:test"
+freeze = "scripts:freeze"
+docker-build = "scripts:docker_build"
+docker-run = "scripts:docker_run"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

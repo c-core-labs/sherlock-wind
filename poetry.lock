@@ -1965,7 +1965,7 @@ jupyter = ["notebook", "ipytree"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "bb23558bc85c6310bac13e5407b6aa47d1af855690d7475c721da38e63cf0db3"
+content-hash = "2833a6705fb0276870b0d89c52e5b8d835b0e04054d4c2f4e21d4decb93b21cd"
 
 [metadata.files]
 aiofiles = [
