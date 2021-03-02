@@ -1,7 +1,6 @@
 # Sherlock Wind 🌬️
 Process wind speed and direction data for Sentinel 1 scenes using Sherlock.
-
----
+Sherlock Wind is an add-on to the [Sherlock Project](https://github.com/c-core-labs/Sherlock-Frontend).
 
 ## Features
 
@@ -22,7 +21,7 @@ $ cd sherlock-wind && pip install -r requirements.txt
 
 ## Environment variables
 
-Sherlock Wind expects a (CDS API)[https://cds.climate.copernicus.eu/api-how-to] url and key to access data from the Climate Data Store.
+Sherlock Wind expects a [CDS API](https://cds.climate.copernicus.eu/api-how-to) url and key to access data from the Climate Data Store.
 
 ``` shell
 $ export CDS_API_URL=https://cds.climate.copernicus.eu/api/v2
@@ -44,4 +43,10 @@ $ docker run --rm -it -p 8080:8080 sherlock-wind
 ```
 
 ## Examples
-View `notebooks` for examples.
+View [notebooks](notebooks/view_wind.ipynb) for examples.
+
+To run a local notebook server:
+
+``` shell
+$ jupyter lab
+```
